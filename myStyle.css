@@ -1,0 +1,51 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftLogo h1 {
+    float: left;
+    font-size: 20;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+#centerNav {
+    line-height: 50px;
+}
+
+#centerNav ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 6%;
+}
+
+#rightNav{
+    padding-left: 4%;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.modelOptions h1 {
+    text-align: center;
+}
+
+.modelOptions ul{
+    text-align: center;
+}
+
+.modelOptions ul li {
+   display: inline-block;
+   padding-right: 5%;
+}
+
+.modelOptions p {
+    text-align: center;
+    padding-top: 0;
+}
+
+#fixMargin{
+    margin: 0;
+}
