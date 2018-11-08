@@ -28,6 +28,9 @@ html, body{
     clear: both;
 }
 
+.modelOptions {
+    background-image: url("https://images.hgmsites.net/lrg/2018-tesla-model-s_100641506_l.jpg");
+}
 .modelOptions h1 {
     text-align: center;
 }
