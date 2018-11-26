@@ -3,26 +3,58 @@ html, body{
     padding: 0px;
 }
 
+#fullNav {
+    width: 100%;
+    display: flex;
+}
+
+.leftLogo {
+    border: 1px solid salmon;
+}
+
 .leftLogo h1 {
     float: left;
     font-size: 20;
     border: 1px solid black;
-    margin-left: 5px;
+    flex: 1;
+
 }
 
 #centerNav {
-    line-height: 50px;
+    border: 1px solid black;
+    flex: 1;
+}
+
+#centerNav ul {
+    width: 100%;
+    display: flex;
+    
+    
 }
 
 #centerNav ul li {
+    width: 100%; 
     list-style-type: none;
-    float: left;
-    margin-left: 6%;
+    
 }
 
-#rightNav{
-    padding-left: 4%;
+#rightNav {
+    border: 1px solid salmon;
+    flex: -1;
 }
+
+#rightNav ul {
+    width: 100%;
+    display: flex;
+    
+}
+
+#rightNav ul li {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
 
 .clearFix{
     clear: both;
@@ -33,6 +65,8 @@ html, body{
     height: 800px;
     width: 100%;
     opacity: .7;
+    background-repeat: no-repeat;
+    
     
 }
 .modelOptions h1 {
